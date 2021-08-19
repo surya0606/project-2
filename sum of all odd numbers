@@ -1,0 +1,6 @@
+*python programme for sum of all odd numbers
+a=int(input("enter a value upto n"))
+S=0
+For i in range(1,a+1,2):
+ S=S+i
+Print("the value of sum of all odd numbers are", S)
